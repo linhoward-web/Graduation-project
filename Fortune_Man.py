@@ -91,7 +91,7 @@ model.add(MaxPooling2D(pool_size=(3,3)))
 model.add(Flatten())
 model.add(Dense(100,activation='relu'))
 #model.add(Dropout(0.5))
-model.add(Dense(13,activation='softmax')) #Dense(前面數字為class數目)
+model.add(Dense(22,activation='softmax')) #Dense(前面數字為class數目)
 
 #Training Model
 #Training Model
